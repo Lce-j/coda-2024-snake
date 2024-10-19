@@ -1,6 +1,8 @@
+#Makefile
+
 NAME = snake
 
-SRCS = snake
+SRCS = GraphSnake.c
 SDL2_CFLAGS = $(shell sdl2-config --cflags)
 SDL2_LDFLAGS = $(shell sdl2-config --libs) -lSDL2_image
 all :  $(NAME)
